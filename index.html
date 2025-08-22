@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shyam Kumar - DevOps Engineer</title>
+    <meta name="title" content="Shyam Kumar – Software Developer & DevOps Engineer">
+    <meta name="description" content="Step into the world of Shyam Kumar, A passionate developer and DevOps engineer sharing innovative projects, technical expertise, and a love for problem-solving.">
+
+    <link rel="icon" href="files/favicon.ico" type="image/x-icon">
+    
+    <!-- style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+
+
+</head>
+<body class="min-h-screen" style="background-color: #0a192f;">
+    <!-- Header -->
+    <header id="header" class="fixed top-0 w-full z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Updated text colors to use exact navy palette -->
+                <div class="text-xl font-bold" style="color: #64ffda;">Shyam Kumar</div>
+                
+                <div class="hidden md:flex items-center space-x-8">
+                    <button onclick="scrollToSection('about')" class="transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">About</button>
+                    <button onclick="scrollToSection('experience')" class="transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">Experience</button>
+                    <button onclick="scrollToSection('work')" class="transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">Work</button>
+                    <button onclick="scrollToSection('certifications')" class="transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">Certifications</button>
+                    <button onclick="scrollToSection('contact')" class="transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">Contact</button>
+                </div>
+                
+                <button onclick="scrollToSection('contact')" class="px-4 py-2 rounded-md transition-colors" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                    Hire Me
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-6 pt-20">
+        <div class="container mx-auto text-center">
+            <div class="animate-fade-in-up">
+                <!-- Updated hero text colors to use lightest slate and slate -->
+                <h1 class="text-5xl md:text-7xl font-bold mb-6 font-dm-sans" style="color: #ccd6f6;">Shyam Kumar</h1>
+                <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto animate-fade-in-up animate-delay-100" style="color: #a8b2d1;">
+                    DevOps Engineer & Java Full-Stack Developer
+                </p>
+                <p class="text-lg mb-12 max-w-3xl mx-auto animate-fade-in-up animate-delay-200" style="color: #64ffda;">
+                    <strong> Glad to e-meet you! </strong><br>
+                </p>
+                <p class="text-lg mb-12 max-w-3xl mx-auto animate-fade-in-up animate-delay-200" style="color: #8892b0;">
+                    
+                    I am Shyam Kumar, an alumnus of Galgotias University, currently working as a DevOps Architect at <a href="https://www.computing-mind.com/" target="_blank"><strong>Computing Mind</strong></a>. <br>
+
+                    Beyond DevOps and backend code, you can find me sketching or exploring new tools & technologies, and spending time with creative hobbies.
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 animate-fade-in-up animate-delay-300">
+                <button onclick="scrollToSection('work')" class="px-8 py-3 rounded-md transition-colors" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                    View My Work
+                </button>
+                <button onclick="scrollToSection('contact')" class="border px-8 py-3 rounded-md transition-colors" style="border-color: #64ffda; color: #64ffda; background-color: transparent;" onmouseover="this.style.backgroundColor='#64ffda'; this.style.color='#0a192f'" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#64ffda'">
+                    Get In Touch
+                </button>
+            </div>
+
+            <div class="flex items-center justify-center gap-6 mb-12 animate-fade-in-up animate-delay-300">
+                <a href="https://github.com/shyamk5" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                    <i data-lucide="github" class="w-6 h-6"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/shyamk5/" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                    <i data-lucide="linkedin" class="w-6 h-6"></i>
+                </a>
+                <a href="mailto:shyamiaf5@gmail.com" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                    <i data-lucide="mail" class="w-6 h-6"></i>
+                </a>
+            </div>
+
+            <button onclick="scrollToSection('about')" class="animate-bounce transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                <i data-lucide="arrow-down" class="w-8 h-8"></i>
+            </button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-6">
+        <div class="container mx-auto max-w-4xl">
+            <!-- Updated section heading color to lightest slate -->
+            <h2 class="text-4xl font-bold text-center mb-16 font-dm-sans" style="color: #ccd6f6;">About Me</h2>
+
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="files/about_pic.png" alt="Shyam Kumar" class="rounded-lg shadow-lg w-full max-w-sm mx-auto">
+                </div>
+
+                <div class="space-y-6">
+                    <!-- Updated paragraph text colors to slate -->
+                    <p class="text-lg leading-relaxed" style="color: #8892b0;">
+                        With a strong foundation in Software Development & DevOps Engineering, I have contributed to impactful projects spanning backend systems, automation, and client delivery.
+                    </p>
+
+                    <p class="text-lg leading-relaxed" style="color: #8892b0;">
+                        At Computing Mind Technology, I am working as a DevOps Engineer, where I contribute to the migration of AWS Lambda functions from manual deployments to automated CI/CD pipelines, enhancing scalability and reliability.
+                    </p>
+
+                    <p class="text-lg leading-relaxed" style="color: #8892b0;">
+                        With hands-on expertise in DevOps, automation, and MLOps, I streamline workflows, cut inefficiencies, and accelerate delivery without compromising reliability.
+                    </p>
+
+                    <div class="pt-4">
+                        <h3 class="text-xl font-semibold mb-4" style="color: #ccd6f6;">What I Do</h3>
+                        <ul class="space-y-2" style="color: #8892b0;">
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                                Cloud Infrastructure, DevOps & MLOps
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                                Full-Stack Web Development
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                                API Design & Development
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                                Automation Solutions
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 px-6" style="background-color: #112240;">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold text-center mb-16 font-dm-sans" style="color: #ccd6f6;">Experience</h2>
+
+            <div class="space-y-12">
+                <!-- Currently Working -->
+                <div>
+                    <h3 class="text-2xl font-semibold mb-8" style="color: #64ffda;">Currently Working</h3>
+                    <div class="p-6 rounded-lg border" style="background-color: #233554; border-color: #233554;">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <div>
+                                <h4 class="text-xl font-semibold" style="color: #e6f1ff;">DevOps Engineer</h4>
+                                <p class="text-lg" style="color: #64ffda;">Computing Mind Technology</p>
+                            </div>
+                            <span class="text-sm px-3 py-1 rounded-full mt-2 md:mt-0" style="background-color: #64ffda; color: #0a192f;">Aug 2025 - Present</span>
+                        </div>
+                        <p class="mb-4" style="color: #8892b0;">
+                            Contributing to infrastructure automation and deployment workflows using Docker, Kubernetes, Jenkins, Terraform, and AWS. Focused on improving CI/CD pipelines, monitoring reliability, and collaborating with development teams to streamline releases.
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">AWS</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Linux</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Docker</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Terraform</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Jenkins</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Kubernetes</span>
+                            <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Ansible</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Previous Experience -->
+                 <!--
+                <div>
+                    <h3 class="text-2xl font-semibold mb-8" style="color: #ccd6f6;">Previous Experience</h3>
+                    <div class="space-y-6">
+                        
+                        <div class="p-6 rounded-lg border" style="background-color: #233554; border-color: #233554;">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                <div>
+                                    <h4 class="text-xl font-semibold" style="color: #e6f1ff;">Full-Stack Developer</h4>
+                                    <p class="text-lg" style="color: #64ffda;">StartupXYZ</p>
+                                </div>
+                                <span class="text-sm px-3 py-1 rounded-full mt-2 md:mt-0" style="background-color: #112240; color: #8892b0;">2020 - 2022</span>
+                            </div>
+                            <p class="mb-4" style="color: #8892b0;">
+                                Built the entire web platform from scratch using React and Node.js. Implemented real-time features, payment processing, and automated testing that improved code quality by 40%.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">React</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Express.js</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">MongoDB</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">Stripe</span>
+                            </div>
+                        </div>
+
+                        
+                        <div class="p-6 rounded-lg border" style="background-color: #233554; border-color: #233554;">
+                            <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                                <div>
+                                    <h4 class="text-xl font-semibold" style="color: #e6f1ff;">Junior Developer</h4>
+                                    <p class="text-lg" style="color: #64ffda;">WebDev Agency</p>
+                                </div>
+                                <span class="text-sm px-3 py-1 rounded-full mt-2 md:mt-0" style="background-color: #112240; color: #8892b0;">2019 - 2020</span>
+                            </div>
+                            <p class="mb-4" style="color: #8892b0;">
+                                Developed responsive websites and web applications for various clients. Collaborated with design teams to implement pixel-perfect UI components and optimize performance.
+                            </p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">HTML/CSS</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">JavaScript</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">PHP</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #112240; color: #8892b0;">WordPress</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Renamed Projects section to Work section with Ideas and Featured Projects subsections -->
+    <!-- Work Section -->
+    <section id="work" class="py-20 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold text-center mb-16 font-dm-sans" style="color: #ccd6f6;">Work</h2>
+
+            <!-- Ideas -->
+            <div class="mb-16">
+                <h3 class="text-2xl font-semibold mb-8" style="color: #64ffda;">Ideas</h3>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="codesandbox" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">Infrastructure as Code (IaC) for Cloud & AI</h4>
+                        </div>
+                        <p style="color: #8892b0;">Using Terraform & Ansible to provision and manage AI-ready cloud infrastructure while ensuring cost optimization and compliance.</p>
+                    </div>
+                    
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="cloud" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">Serverless & Microservices Modernization</h4>
+                        </div>
+                        <p style="color: #8892b0;">Re-architecting legacy functions into serverless and containerized microservices, improving scalability, observability, and maintainability.</p>
+                    </div>
+                    
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="between-horizontal-start" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">Scalable Data & AI Workflows</h4>
+                        </div>
+                        <p style="color: #8892b0;">Leveraging Databricks for large-scale data engineering, feature pipelines, and collaborative AI/ML model development.</p>
+                    </div>
+
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="square-function" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">Cloud-Native Migration Strategies</h4>
+                        </div>
+                        <p style="color: #8892b0;">Designing step-by-step migration plans from manual to fully automated for serverless workloads (e.g., AWS Lambda) using CI/CD pipelines.</p>
+                    </div>
+
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="workflow" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">End-to-End MLOps Pipelines</h4>
+                        </div>
+                        <p style="color: #8892b0;">Automating the ML lifecycle with MLflow, Airflow/Kubeflow, and Azure ML covering experiment tracking, model registry, and production deployment.</p>
+                    </div>
+
+                    <div class="p-6 rounded-lg border" style="background-color: #112240; border-color: #233554;">
+                        <div class="mb-4">
+                            <i data-lucide="network" class="w-8 h-8 mb-3" style="color: #64ffda;"></i>
+                            <h4 class="text-lg font-semibold" style="color: #e6f1ff;">CI/CD for Applications & ML Models</h4>
+                        </div>
+                        <p style="color: #8892b0;">Implementing CI/CD pipelines for both traditional applications and ML workloads using Azure DevOps, GitHub Actions, and container registries.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Projects -->
+            <div>
+                <h3 class="text-2xl font-semibold mb-8" style="color: #ccd6f6;">Featured Projects</h3>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- Project 1 -->
+                    <div class="project-card rounded-lg overflow-hidden border" style="background-color: #112240; border-color: #233554;">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="files/project_1.png" alt="project_1" class="project-image w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold mb-2" style="color: #e6f1ff;">Cloud-Native Migration Strategy (AWS Lambda Modernization)</h4>
+                            <p class="mb-4" style="color: #8892b0;">Working on designing a migration strategy for serverless applications, transitioning from manual deployments to an automated CI/CD pipeline. Key focus: reducing operational overhead, enabling faster rollouts, and gradually scaling automation for seamless adoption.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">AWS Lambda</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">CloudWatch</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">GitHub Actions</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Terraform</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Docker</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">API Gateway</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                                    <!-- <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> -->
+                                    Ongoing
+                                </a>
+                                <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="border px-4 py-2 rounded text-sm transition-colors flex items-center" style="border-color: #233554; color: #ccd6f6; background-color: transparent;" onmouseover="this.style.backgroundColor='#233554'" onmouseout="this.style.backgroundColor='transparent'">
+                                    <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                    Code
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card rounded-lg overflow-hidden border" style="background-color: #112240; border-color: #233554;">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="files/project_2.png" alt="project_2" class="project-image w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold mb-2" style="color: #e6f1ff;">Scalable MLOps Pipeline Implementation</h4>
+                            <p class="mb-4" style="color: #8892b0;">Contributed to building end-to-end MLOps pipelines integrating MLflow, Airflow, and Kubernetes for training, deployment, and monitoring. Key focus: automating ML lifecycle, improving model governance, and enabling collaborative data science workflows on Azure & Databricks.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Azure ML</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Databricks</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">MLflow</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Apache Airflow</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Kubernetes</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Docker</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Python</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="#" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                                    <!-- <i data-lucide="external-link" class="w-4 h-4 mr-2"></i> -->
+                                    Ongoing
+                                </a>
+                                <!-- <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="border px-4 py-2 rounded text-sm transition-colors flex items-center" style="border-color: #233554; color: #ccd6f6; background-color: transparent;" onmouseover="this.style.backgroundColor='#233554'" onmouseout="this.style.backgroundColor='transparent'">
+                                    <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                    Code
+                                </a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card rounded-lg overflow-hidden border" style="background-color: #112240; border-color: #233554;">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="files/project_3.png" alt="project_3" class="project-image w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold mb-2" style="color: #e6f1ff;">Bug Detection & Code Quality Analyzer</h4>
+                            <p class="mb-4" style="color: #8892b0;">Developed a static code analysis tool that detects potential bugs, code smells, and ensures compliance with industry coding standards.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Java</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Python</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">SonarQube</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">PyLint</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Angular</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">SpringBoot</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="https://github.com/shyamk5/Bug-Detection-Code-Quality-Analyzer" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                                    <i data-lucide="external-link" class="w-4 h-4 mr-2"></i>
+                                    Live
+                                </a>
+                                <a href="https://github.com/shyamk5/Bug-Detection-Code-Quality-Analyzer" target="_blank" rel="noopener noreferrer" class="border px-4 py-2 rounded text-sm transition-colors flex items-center" style="border-color: #233554; color: #ccd6f6; background-color: transparent;" onmouseover="this.style.backgroundColor='#233554'" onmouseout="this.style.backgroundColor='transparent'">
+                                    <i data-lucide="github" class="w-4 h-4 mr-2"></i>
+                                    Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card rounded-lg overflow-hidden border" style="background-color: #112240; border-color: #233554;">
+                        <div class="aspect-video overflow-hidden">
+                            <img src="files/project_4.png" alt="project_4" class="project-image w-full h-full object-cover">
+                        </div>
+                        <div class="p-6">
+                            <h4 class="text-xl font-semibold mb-2" style="color: #e6f1ff;">GoInstantLoan (FinTech Web Platform)</h4>
+                            <p class="mb-4" style="color: #8892b0;">Contributed to the development of GoInstantLoan.com, a platform simplifying loan applications with secure data handling and real-time eligibility checks. Focus: Enhanced backend workflows, database design, and deployment pipelines.</p>
+                            <div class="flex flex-wrap gap-2 mb-4">
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Wordpress</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">MySQL</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">JavaScript</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">Bootstrap</span>
+                                <span class="px-2 py-1 rounded text-xs" style="background-color: #233554; color: #8892b0;">SEO</span>
+                            </div>
+                            <div class="flex gap-3">
+                                <a href="https://goinstantloan.com/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                                    <i data-lucide="external-link" class="w-4 h-4 mr-2"></i>
+                                    Live
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 px-6" style="background-color: #112240;">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold text-center mb-16 font-dm-sans" style="color: #ccd6f6;">Certifications</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Big Data Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="database" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">Big Data Computing</h3>
+                        <p class="text-sm" style="color: #8892b0;">NPTEL Certification</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Completed a certified 8-week course on Big Data Computing covering Hadoop architecture, HDFS, MapReduce, and big data analytics basics.</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">Aug-Oct 2024</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://archive.nptel.ac.in/content/noc/NOC24/SEM2/Ecertificates/106/noc24-cs130/Course/NPTEL24CS130S35130109504307857.pdf" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- iOS Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="layout-grid" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">iOS Mobile Application Development Bootcamp</h3>
+                        <p class="text-sm" style="color: #8892b0;">Apple Inc. & Infosys</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Awarded recognition for “Best App Idea Pitch” among participants, based on innovation, feasibility, and user impact.</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">Aug 2024</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://drive.google.com/file/d/1_jT0zreB0V4kfnI5EfaG6vS51-5p5UCf/view?usp=drive_link" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- DSA Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="file-badge" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">Data Structures & Algorithms</h3>
+                        <p class="text-sm" style="color: #8892b0;">Udemy</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Completed a comprehensive course by Abdul Bari, gaining in-depth knowledge of algorithms, problem-solving techniques, and data structure implementation.</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">March 2023</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://www.udemy.com/certificate/UC-36ad6119-71d0-4fa0-8fd1-a0ab1957ced2/" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Research Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="notebook-text" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">Research Publication Certificate</h3>
+                        <p class="text-sm" style="color: #8892b0;">YMER Journal</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Authored and published “A Web-Based Bug Detection and Code Quality Analyzer” in YMER Journal (Vol. 24, Issue 6).</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">June 2025</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://drive.google.com/file/d/1ceckVECrt35i7vJjZxr3uHuSaRKaQqTi/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- AI/ML Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="brain-circuit" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">Google AI-ML Virtual Internship</h3>
+                        <p class="text-sm" style="color: #8892b0;">AICTE</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Successfully completed the AICTE-certified Google AI-ML Virtual Internship, gaining hands-on experience in machine learning, AI model building, and data-driven problem solving.</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">Apr-Jun 2024</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://drive.google.com/file/d/1lw2CYJaI76p7hJL2OXrDQ1ZGZ4_4Odpn/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Java Certification -->
+                <div class="p-6 rounded-lg border text-center" style="background-color: #233554; border-color: #233554;">
+                    <div class="mb-4">
+                        <i data-lucide="code" class="w-12 h-12 mx-auto mb-3" style="color: #64ffda;"></i>
+                        <h3 class="text-lg font-semibold" style="color: #e6f1ff;">Java Business Application</h3>
+                        <p class="text-sm" style="color: #8892b0;">EduPyramids, SINE, IIT Bombay</p>
+                    </div>
+                    <p class="text-sm mb-4" style="color: #8892b0;">Successfully completed the Java Business Application test and training organized at Galgotias University by EduPyramids, SINE, IIT Bombay.</p>
+                    <span class="text-xs px-2 py-1 rounded" style="background-color: #112240; color: #64ffda;">June 2025</span>
+
+                    <div class="flex gap-3">
+                        <a href="https://drive.google.com/file/d/15GbTqGOWzshY2h3qFtdFrVHhbBAoo3XC/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="px-4 py-2 rounded text-sm transition-colors flex items-center" style="background-color: #64ffda; color: #0a192f;" onmouseover="this.style.backgroundColor='#4fd1c7'" onmouseout="this.style.backgroundColor='#64ffda'">
+                            <i data-lucide="external-link" class="w-3 h-3 mr-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-6" style="background-color: #112240;">
+        <div class="container mx-auto max-w-6xl">
+            <h2 class="text-4xl font-bold text-center mb-16 font-dm-sans" style="color: #ccd6f6;">Get In Touch</h2>
+
+            <div class="max-w-3xl mx-auto text-center">
+                <!-- Removed contact form and replaced with simple contact information -->
+                <div class="mb-12">
+                    <p class="text-lg mb-8 leading-relaxed" style="color: #8892b0;">
+                        My inbox is open in case you have any questions or just wanna say a hello! Let's get in touch if you have any relevant roles for me!
+                    </p>
+                </div>
+
+                <!-- Simple contact information display -->
+                <div class="space-y-6 mb-12">
+                    <div class="flex items-center justify-center">
+                        <i data-lucide="mail" class="mr-4 w-6 h-6" style="color: #64ffda;"></i>
+                        <a href="mailto:shyamiaf5@gmail.com" class="text-xl transition-colors" style="color: #ccd6f6;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#ccd6f6'">shyamiaf5@gmail.com</a>
+                    </div>
+                </div>
+
+                <!-- Added social links section -->
+                <div class="flex items-center justify-center space-x-8 mb-12">
+                    <a href="https://github.com/shyamk5" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                        <i data-lucide="github" class="w-8 h-8"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shyamk5/" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                        <i data-lucide="linkedin" class="w-8 h-8"></i>
+                    </a>
+                </div>
+
+                <div class="rounded-lg p-8 border" style="background-color: #233554; border-color: #233554;">
+                    <h4 class="text-lg font-semibold mb-4" style="color: #64ffda;">What I Can Help With</h4>
+                    <div class="grid md:grid-cols-2 gap-4 text-left">
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                            <span style="color: #8892b0;">Java Full-stack web application development</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                            <span style="color: #8892b0;">Cloud infrastructure setup and optimization</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                            <span style="color: #8892b0;">DevOps, MLOps & Cloud Deployment</span>
+                        </div>
+                        <div class="flex items-center">
+                            <span class="w-2 h-2 rounded-full mr-3" style="background-color: #64ffda;"></span>
+                            <span style="color: #8892b0;">Automation Solutions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <!-- Updated footer border and text colors -->
+    <footer class="py-12 px-6 border-t" style="border-color: #233554;">
+        <div class="container mx-auto max-w-6xl">
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="mb-6 md:mb-0">
+                    <h3 class="text-xl font-bold mb-2" style="color: #ccd6f6;">Shyam Kumar</h3>
+                    <p style="color: #8892b0;">DevOps Engineer & Java Full-Stack Developer</p>
+                </div>
+
+                <div class="flex items-center space-x-6">
+                    <a href="https://github.com/shyamk5" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                        <i data-lucide="github" class="w-5 h-5"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shyamk5/" target="_blank" rel="noopener noreferrer" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                        <i data-lucide="linkedin" class="w-5 h-5"></i>
+                    </a>
+                    <a href="mailto:shyamiaf5@gmail.com" class="transition-colors" style="color: #8892b0;" onmouseover="this.style.color='#64ffda'" onmouseout="this.style.color='#8892b0'">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="mt-8 pt-8 border-t text-center" style="border-color: #233554;">
+                <p class="text-sm" style="color: #8892b0;">
+                    © 2025 Shyam Kumar. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
